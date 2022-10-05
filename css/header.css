@@ -3,9 +3,10 @@ header {
     width: 1920px;
     height: 84px;
     left: 0px;
-    top: 0px;
+    top: 5px;
     background: #fff;
 }
+
 .header_link {
     font-family: Lato;
     font-size: 16px;
@@ -14,11 +15,16 @@ header {
     text-decoration: none;
     line-height: 20px;
     position: absolute;
-    top:32px;
+    top: 32px;
 }
+
+.header_link:hover {
+    border-bottom: 2px solid dodgerblue;
+}
+
 .main_logo {
     position: absolute;
-    top:11px;
+    top: 11px;
     left: 100px;
 }
 
@@ -27,21 +33,27 @@ header {
 .header_link:nth-child(2) {
     left: 246px;
 }
+
 .header_link:nth-child(3) {
     left: 388px;
 }
+
 .header_link:nth-child(4) {
     left: 478px;
 }
+
 .header_link:nth-child(5) {
     left: 560px;
 }
+
 .header_link:nth-child(6) {
     left: 643px;
 }
+
 .header_link:nth-child(7) {
     left: 716px;
 }
+
 .header_link:nth-child(8) {
     left: 808px;
 }

@@ -1,15 +1,130 @@
+* {
+    font-family: sans-serif;
+}
+
 body {
     height: 100vh;
     margin: 0;
     display: flex;
     justify-content: center;
-    align-items: center;
     background: #E5E5E5;
+    overflow-x: hidden;
 }
+
 main {
     position: absolute;
     width: 1920px;
+    height: 2000px;
+    background: #fff;
 }
+
+.theme {
+    width: 51px;
+    height: 24px;
+    position: absolute;
+    left: 105px;
+    top: 112px;
+    font-family: 'Thames';
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    color: #AFAFAF;
+}
+
+.values_goals {
+    width: 450px;
+    height: 60px;
+    position: absolute;
+    left: 100px;
+    top: 177px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    color: #4A4A4A;
+    overflow: hidden;
+}
+
+.drop_down {
+    width: 8px;
+    height: 12px;
+    background: #B7B7B7;
+    clip-path: polygon(0 0, 100% 50%, 0% 100%);
+    position: absolute;
+    left: 350px;
+    top: 40px;
+}
+
+.Lufeum {
+    position: absolute;
+    width: 227px;
+    height: 24px;
+    left: 579px;
+    top: 228px;
+    font-weight: 400;
+    font-size: 58px;
+    line-height: 24px;
+    text-align: center;
+    color: #4A4A4A;
+}
+
+.first_text {
+    width: 739px;
+    height: 562px;
+    position: absolute;
+    left: 589px;
+    top: 350px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #707070;
+}
+
+.our_goal {
+    position: absolute;
+    left: 589px;
+    top: 570px;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 24px;
+    text-align: justify;
+    color: #707070;
+}
+
+.second_text {
+    width: 739px;
+    height: 562px;
+    position: absolute;
+    left: 589px;
+    top: 650px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    text-align: justify;
+    color: #707070;
+}
+
 .first_picture {
-    
+    width: 408px;
+    height: 291px;
+    background: url('../img/vue.jpg') 50% no-repeat;
+    background-size: 130%;
+    position: absolute;
+    right: 100px;
+    top: 100px;
+}
+
+.first_picture>p {
+    font-size: 38px;
+    color: #fff;
+    position: absolute;
+    top: 140px;
+    left: 50px;
+}
+
+.first_picture>p:nth-child(2) {
+    font-size: 14px;
+    top: 220px;
 }
