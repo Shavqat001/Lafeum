@@ -1,5 +1,5 @@
 * {
-    font-family: "lato";
+    font-family: 'Lato';
 }
 
 body {
@@ -19,7 +19,6 @@ main {
 }
 
 /*---------- Левая часть -------------*/
-
 .theme {
     width: 51px;
     height: 24px;
@@ -130,9 +129,8 @@ main {
     right: 19.68%;
     top: 0%;
     bottom: 78.36%;
-
-    background: url(../img/vue.jpg);
-    background-size: 100%;
+    background: url('../img/nature.jpg') 50% no-repeat;
+    background-size: 120%;
 }
 
 .first_picture>p {
@@ -150,7 +148,7 @@ main {
 
 .quote {
     position: absolute;
-    width: 108px;
+    /* width: 108px; */
     height: 24px;
     left: 48px;
     top: 319px;
@@ -190,4 +188,37 @@ main {
     left: 0px;
     top: 427.76px;
     background: #DEDEDE;
+}
+
+.more {
+    position: absolute;
+    width: 42px;
+    height: 24px;
+    left: 349.14px;
+    top: 539.43px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off;
+    color: #20A6FC;
+}
+
+.termin {
+    position: absolute;
+    height: 24px;
+    left: 48px;
+    top: 597.28px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off;
+    color: #AFAFAF;
 }

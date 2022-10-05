@@ -1,11 +1,10 @@
 footer {
-    width: 100%;
+    width: 1920px;
     height: 430px;
-    background: #1E2833;
     position: absolute;
-    bottom: 0;
     color: #fff;
-    display: flex;
+    bottom: 0;
+    background: #1E2833;
 }
 
 .footer_logo {

@@ -24,10 +24,10 @@ header {
 
 .main_logo {
     position: absolute;
-left: 5.21%;
-right: 91.09%;
-top: 0.52%;
-bottom: 97%;
+    left: 5.21%;
+    right: 91.09%;
+    top: 0.52%;
+    bottom: 97%;
 }
 
 /* Links */
@@ -65,10 +65,13 @@ bottom: 97%;
 .user {
     width: 53.65px;
     height: 53.65px;
-    border-radius: 50%;
+    border-radius: 100px;
     background-size: 100%;
     background-image: url('../img/hacker.jpg');
     position: absolute;
-    left: 1766px;
-    top: 15px;
+    left: 1766.35px;
+    right: 100px;
+    top: 15.17px;
+    bottom: 2028.17px;
+
 }
