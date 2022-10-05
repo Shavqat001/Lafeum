@@ -1,0 +1,12 @@
+body {
+    height: 100vh;
+    margin: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #E5E5E5;
+}
+main {
+    position: absolute;
+    width: 1920px;
+}
