@@ -1,5 +1,5 @@
 * {
-    font-family: sans-serif;
+    font-family: "lato";
 }
 
 body {
@@ -14,9 +14,11 @@ body {
 main {
     position: absolute;
     width: 1920px;
-    height: 2000px;
+    height: 2097px;
     background: #fff;
 }
+
+/*---------- Левая часть -------------*/
 
 .theme {
     width: 51px;
@@ -32,10 +34,11 @@ main {
     color: #AFAFAF;
 }
 
-.values_goals {
+.values_goals,
+.society {
     width: 450px;
     height: 60px;
-    position: absolute;
+    position: relative;
     left: 100px;
     top: 177px;
     font-weight: 400;
@@ -44,6 +47,10 @@ main {
     letter-spacing: 0.02em;
     color: #4A4A4A;
     overflow: hidden;
+}
+
+.society {
+    top: 200px;
 }
 
 .drop_down {
@@ -69,6 +76,7 @@ main {
     color: #4A4A4A;
 }
 
+/*-------- Средняя часть -------*/
 .first_text {
     width: 739px;
     height: 562px;
@@ -106,14 +114,25 @@ main {
     color: #707070;
 }
 
-.first_picture {
-    width: 408px;
-    height: 291px;
-    background: url('../img/vue.jpg') 50% no-repeat;
-    background-size: 130%;
+/*------------- Правая часть -----------*/
+.right_sign {
     position: absolute;
-    right: 100px;
-    top: 100px;
+    width: 508px;
+    height: 1344.47px;
+    left: 1412px;
+    top: 84px;
+
+}
+
+.first_picture {
+    position: absolute;
+    left: 0%;
+    right: 19.68%;
+    top: 0%;
+    bottom: 78.36%;
+
+    background: url(../img/vue.jpg);
+    background-size: 100%;
 }
 
 .first_picture>p {
@@ -127,4 +146,48 @@ main {
 .first_picture>p:nth-child(2) {
     font-size: 14px;
     top: 220px;
+}
+
+.quote {
+    position: absolute;
+    width: 108px;
+    height: 24px;
+    left: 48px;
+    top: 319px;
+
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    /* identical to box height, or 150% */
+
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off;
+
+    color: #AFAFAF;
+}
+
+.dzhorch {
+    position: absolute;
+    left: 9.65%;
+    right: 39.12%;
+    top: 27.33%;
+    bottom: 70%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 18px;
+    color: #707070;
+}
+
+.line {
+    position: absolute;
+    width: 508px;
+    height: 1px;
+    left: 0px;
+    top: 427.76px;
+    background: #DEDEDE;
 }
