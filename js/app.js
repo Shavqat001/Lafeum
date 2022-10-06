@@ -4,6 +4,9 @@ let society = document.querySelector('.society');
 let sciencePhilosophy = document.querySelector('.science_philosophy');
 let humorIrony = document.querySelector('.humor_irony');
 let bool = true;
+let bool2 = true;
+let bool3 = true;
+let bool4 = true;
 dropDown.onclick = () => {
     if (bool == true) {
         bool = false;
@@ -16,7 +19,6 @@ dropDown.onclick = () => {
     }
 }
 
-let bool2 = true;
 society.onclick = () => {
     if (bool2 == true) {
         bool2 = false;
@@ -27,7 +29,6 @@ society.onclick = () => {
     }
 }
 
-let bool3 = true;
 sciencePhilosophy.onclick = () => {
     if (bool3 == true) {
         bool3 = false;
@@ -38,7 +39,6 @@ sciencePhilosophy.onclick = () => {
     }
 }
 
-let bool4 = true;
 humorIrony.onclick = () => {
     if (bool4 == true) {
         bool4 = false;
