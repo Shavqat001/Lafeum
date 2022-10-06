@@ -1,12 +1,14 @@
-let dropDown = document.querySelector('.values_goals');
-let drop = document.querySelectorAll('.drop_down_logo');
-let society = document.querySelector('.society');
-let sciencePhilosophy = document.querySelector('.science_philosophy');
-let humorIrony = document.querySelector('.humor_irony');
+let dropDown = document.querySelector('.values_goals'),
+    drop = document.querySelectorAll('.drop_down_logo'),
+    society = document.querySelector('.society'),
+    sciencePhilosophy = document.querySelector('.science_philosophy'),
+    humorIrony = document.querySelector('.humor_irony');
+
 let bool = true;
 let bool2 = true;
 let bool3 = true;
 let bool4 = true;
+
 dropDown.onclick = () => {
     if (bool == true) {
         bool = false;

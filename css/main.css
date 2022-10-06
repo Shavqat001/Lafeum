@@ -1,5 +1,28 @@
-* {
+@font-face {
     font-family: 'Lato';
+    src: url('../fonts/Lato-Black.ttf'),
+        url('../fonts/Lato-BlackItalic.ttf'),
+        url('../fonts/Lato-Italic.ttf'),
+        url('../fonts/Lato-Light.ttf'),
+        url('../fonts/Lato-LightItalic.ttf'),
+        url('../fonts/Lato-Regular.ttf'),
+        url('../fonts/Lato-Thin.ttf'),
+        url('../fonts/Lato-ThinItalic.ttf');
+}
+
+@font-face {
+    font-family: 'PT serif';
+    src:
+        url('../fonts/PTSerif-Regular.ttf'),
+        url('../fonts/PTSerif-Bold.ttf'),
+        url('../fonts/PTSerif-BoldItalic.ttf'),
+        url('../fonts/PTSerif-Italic.ttf');
+
+}
+
+@font-face {
+    font-family: 'Manrope';
+    src: url('../fonts/Manrope-VariableFont_wght.ttf');
 }
 
 body {
@@ -15,7 +38,8 @@ main {
     position: absolute;
     width: 1920px;
     height: 2097px;
-    background: #fff;
+    background: #FAFAFA;
+    ;
 }
 
 /*---------- Левая часть -------------*/
@@ -56,15 +80,21 @@ main {
 }
 
 .society {
-    top: 200px;
+    top: 160px;
 }
 
 .science_philosophy {
-    top: 225px;
+    top: 160px;
 }
 
 .humor_irony {
-    top: 250px;
+    top: 160px;
+}
+
+.left_drop_down_text {
+    border-bottom: 1px solid #ddd;
+    width: 320px;
+    line-height: 24px;
 }
 
 .drop_down_logo {
@@ -77,13 +107,26 @@ main {
     top: 40px;
 }
 
-.Lufeum,
-.vocabulary_lufeum {
+/*-------- Средняя часть -------*/
+
+.center {
+    position: absolute;
+    width: 905px;
+    height: 1608px;
+    left: 507px;
+    top: 84px;
+    background: #FFF;
+    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+}
+
+.lafeum {
     position: absolute;
     width: 227px;
     height: 24px;
-    left: 579px;
-    top: 228px;
+    left: 579.69px;
+    top: 228.91px;
+    font-family: 'PT Serif';
+    font-style: normal;
     font-weight: 400;
     font-size: 58px;
     line-height: 24px;
@@ -91,75 +134,14 @@ main {
     color: #4A4A4A;
 }
 
-.vocabulary_lufeum {
-    width: 428px;
-    left: 604px;
-    top: 177px;
-    font-family: 'PT Serif';
-    font-style: normal;
-    font-size: 48px;
-    display: flex;
-    align-items: center;
-}
-
-.search_bar {
+.text {
     position: absolute;
-    width: 905px;
-    height: 1583px;
-    left: 507px;
-    top: 84px;
-    background: #FFFFFF;
-    box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
-}
-
-.inside_search_bar {
-    width: 392.5px;
-    height: 24px;
-    font-family: 'Manrope';
-    font-style: normal;
-    font-weight: 400;
-    font-size: 14px;
-    line-height: 24px;
-    font-feature-settings: 'liga' off;
-    color: #9B9B9B;
-    flex: none;
-    order: 0;
-    flex-grow: 0;
-
-}
-
-/*-------- Средняя часть -------*/
-
-.first_text {
     width: 739px;
     height: 562px;
-    position: absolute;
     left: 589px;
-    top: 350px;
-    font-weight: 400;
-    font-size: 16px;
-    line-height: 24px;
-    text-align: justify;
-    color: #707070;
-}
-
-.our_goal {
-    position: absolute;
-    left: 589px;
-    top: 570px;
-    font-weight: 400;
-    font-size: 30px;
-    line-height: 24px;
-    text-align: justify;
-    color: #707070;
-}
-
-.second_text {
-    width: 739px;
-    height: 562px;
-    position: absolute;
-    left: 589px;
-    top: 650px;
+    top: 300px;
+    font-family: 'Lato';
+    font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
@@ -175,7 +157,7 @@ main {
     height: 1344.47px;
     left: 1412px;
     top: 84px;
-
+    background: #FAFAFA;
 }
 
 .first_picture {
@@ -198,6 +180,28 @@ main {
     bottom: 8.17%;
     background: url('../img/earth.jpg') 50% no-repeat;
     background-size: 120%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.red_circle {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    background: #CC3333;
+    opacity: 0.9;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 0px 4px 8px rgba(34, 46, 79, 0.15);
+}
+
+.play_icon {
+    width: 23px;
+    height: 34px;
+    background: #fff;
+    clip-path: polygon(0 0, 100% 50%, 0 100%);
 }
 
 .first_picture>p {
