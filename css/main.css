@@ -19,6 +19,7 @@ main {
 }
 
 /*---------- Левая часть -------------*/
+
 .theme {
     width: 51px;
     height: 24px;
@@ -34,7 +35,9 @@ main {
 }
 
 .values_goals,
-.society {
+.society,
+.science_philosophy,
+.humor_irony {
     width: 450px;
     height: 60px;
     position: relative;
@@ -47,12 +50,22 @@ main {
     color: #4A4A4A;
     overflow: hidden;
 }
-
+.values_goals {
+    height: 700px;
+}
 .society {
     top: 200px;
 }
 
-.drop_down {
+.science_philosophy {
+    top: 225px;
+}
+
+.humor_irony {
+    top: 250px;
+}
+
+.drop_down_logo {
     width: 8px;
     height: 12px;
     background: #B7B7B7;
@@ -61,7 +74,6 @@ main {
     left: 350px;
     top: 40px;
 }
-
 .Lufeum {
     position: absolute;
     width: 227px;
@@ -76,6 +88,7 @@ main {
 }
 
 /*-------- Средняя часть -------*/
+
 .first_text {
     width: 739px;
     height: 562px;
@@ -114,6 +127,7 @@ main {
 }
 
 /*------------- Правая часть -----------*/
+
 .right_sign {
     position: absolute;
     width: 508px;
@@ -148,26 +162,21 @@ main {
 
 .quote {
     position: absolute;
-    /* width: 108px; */
     height: 24px;
     left: 48px;
     top: 319px;
-
     font-family: 'PT Serif';
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
     line-height: 24px;
-    /* identical to box height, or 150% */
-
     letter-spacing: 0.07em;
     text-transform: uppercase;
     font-feature-settings: 'liga' off;
-
     color: #AFAFAF;
 }
 
-.dzhorch {
+.author {
     position: absolute;
     left: 9.65%;
     right: 39.12%;
@@ -181,6 +190,11 @@ main {
     color: #707070;
 }
 
+.author:nth-child(3) {
+    top: 48.02%;
+    bottom: 49.3%;
+}
+
 .line {
     position: absolute;
     width: 508px;
@@ -190,7 +204,22 @@ main {
     background: #DEDEDE;
 }
 
-.more {
+.term_text {
+    position: absolute;
+    left: 9.48%;
+    right: 19.88%;
+    top: 54.4%;
+    bottom: 38.26%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #494949;
+}
+
+.more,
+.more2 {
     position: absolute;
     width: 42px;
     height: 24px;
@@ -207,7 +236,13 @@ main {
     color: #20A6FC;
 }
 
-.termin {
+.more2 {
+    left: 348.97px;
+    top: 818.43px;
+}
+
+.day_term,
+.video {
     position: absolute;
     height: 24px;
     left: 48px;
@@ -221,4 +256,9 @@ main {
     text-transform: uppercase;
     font-feature-settings: 'liga' off;
     color: #AFAFAF;
+}
+
+.video {
+    height: 24px;
+    top: 854.46px;
 }

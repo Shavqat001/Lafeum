@@ -37,6 +37,41 @@ footer {
     opacity: 0.7;
 }
 
+.about,.use_term,.privacy_policy,.contacts {
+    position: absolute;
+    height: 26px;
+    left: 0%;
+    right: 92.46%;
+    top: calc(50% - 26px/2 + 25px);
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 26px;
+    font-feature-settings: 'liga' off;
+    color: #FFFFFF;
+}
+
+.use_term {
+    left: 15.21%;
+    right: 55.14%;
+}
+
+.privacy_policy {
+    height: 18px;
+    left: 53.97%;
+    right: 17.69%;
+    top: calc(50% - 18px/2 + 25px);
+    font-size: 15px;
+    line-height: 18px;
+    letter-spacing: -0.204545px;
+}
+
+.contacts {
+    left: 90.64%;
+    right: -0.13%;
+}
+
 .right_reserved {
     position: absolute;
     left: 42.6%;
@@ -51,4 +86,36 @@ footer {
     font-feature-settings: 'liga' off;
     color: #D9DBE1;
 
+}
+
+.instagram_logo {
+    position: absolute;
+    left: 3.89%;
+    right: 87.22%;
+    top: 23.33%;
+    bottom: 23.33%;
+}
+
+.ball_logo {
+    position: absolute;
+    left: 31.67%;
+    right: 59.44%;
+    top: 23.33%;
+    bottom: 23.41%;
+}
+
+.twitter_logo {
+    position: absolute;
+    left: 59.72%;
+    right: 32.21%;
+    top: 30%;
+    bottom: 30%;
+}
+
+.youtube_logo {
+    position: absolute;
+    left: 87.22%;
+    right: 3.89%;
+    top: 31.67%;
+    bottom: 30%;
 }
