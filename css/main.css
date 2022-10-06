@@ -24,7 +24,9 @@
     font-family: 'Manrope';
     src: url('../fonts/Manrope-VariableFont_wght.ttf');
 }
-
+* {
+    font-family: 'PT serif';
+}
 body {
     height: 100vh;
     margin: 0;
