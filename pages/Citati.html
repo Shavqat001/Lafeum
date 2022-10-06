@@ -1,12 +1,174 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../css/header.css">
+    <link rel="stylesheet" href="../css/main.css">
+    <link rel="stylesheet" href="../css/footer.css">
+    <link rel="stylesheet" href="../css/page3.css">
+    <link rel="shortcut icon" href="../img/logo.png" type="image/x-icon">
     <title>Цитаты</title>
 </head>
+
 <body>
-    Empty
+    <main>
+
+        <!-------------- Шапка -------------->
+
+        <header>
+            <a href="../Lafeum.html">
+                <svg class="main_logo" width="80" height="52" viewBox="0 0 80 52" fill="none"
+                    xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+                    <rect width="71" height="52" fill="url(#pattern0)" />
+                    <defs>
+                        <pattern id="pattern0" patternContentUnits="objectBoundingBox" width="1" height="1">
+                            <use xlink:href="#image0_247_2087"
+                                transform="translate(-0.0112258) scale(0.00725143 0.00990099)" />
+                        </pattern>
+                        <image id="image0_247_2087" width="141" height="101"
+                            xlink:href="data:image/png;base64,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" />
+                    </defs>
+                </svg>
+            </a>
+            <a class="header_link" href="./pages/OblastiZnaniy.html">Области знаний</a>
+            <a class="header_link" href="./Slovar.html">Словарь</a>
+            <a class="header_link" href="./Citati.html" style="color: #000;">Цитаты</a>
+            <a class="header_link" href="./Avtori.html">Авторы</a>
+            <a class="header_link" href="./Video.html">Видео</a>
+            <a class="header_link" href="./Termin.html">Термины</a>
+            <a class="header_link" href="./Photo.html">Фотографии</a>
+            <div class="user"></div>
+        </header>
+
+        <!------------------ Основа ----------------->
+
+        <div class="container">
+
+            <!------------ Левая часть -------------->
+
+            <p class="theme">Темы</p>
+            <div class="values_goals">
+                <p class="left_drop_down_text" style="font-size: 24px">Ценности и Цели</p>
+                <p class="left_drop_down_text">Смысл жизни и Счастье</p>
+                <p class="left_drop_down_text">Любовь к жизни</p>
+                <p class="left_drop_down_text">Развитие личности</p>
+                <p class="left_drop_down_text">Достижения</p>
+                <p class="left_drop_down_text">Мораль</p>
+                <p class="left_drop_down_text">Мировоззрение</p>
+                <p class="left_drop_down_text">Эрудиция</p>
+                <p class="left_drop_down_text">Компетентность</p>
+                <p class="left_drop_down_text">Самоконтроль</p>
+                <p class="left_drop_down_text">Окружение и Общение</p>
+                <p class="left_drop_down_text">Способности</p>
+                <p class="left_drop_down_text">Предостережение</p>
+                <p class="left_drop_down_text">Здоровый образ жизни</p>
+                <div class="drop_down_logo" style="transform: rotate(90deg);"></div>
+            </div>
+            <div class="society">
+                <p style="font-size: 24px">Общество</p>
+                <div class="drop_down_logo"></div>
+            </div>
+            <div class="science_philosophy">
+                <p style="font-size: 24px">Наука и Философия</p>
+                <div class="drop_down_logo"></div>
+            </div>
+            <div class="humor_irony">
+                <p style="font-size: 24px">Юмор и Ирония</p>
+                <div class="drop_down_logo"></div>
+            </div>
+
+            <!---------------- Центр ------------------->
+
+            <div class="center">
+                <div class="first_quote"></div>
+                <div class="second_quote"></div>
+            </div>
+            <div class="QUOTE">Цитаты</div>
+
+            <!-------------- Правая часть --------------->
+
+            <div class="right_sign">
+                <div class="first_picture">
+                    <p>Фотография дня</p>
+                    <p>Название фотографии, смысл ?</p>
+                </div>
+                <div class="quote">ЦИТАТА ДНЯ</div>
+                <div class="quote_author">Джордж Монбио <br /> Категория: Цитата дня</div>
+                <div class="line"></div>
+                <div class="quote_text">
+                    В постиндустриальном обществе будут цениться творческие способности, умение критически мыслить и
+                    находить общий язык с другими людьми. Однако современная образовательная...</div>
+                <a href="#" class="more">ещё..</a>
+
+                <div class="day_term">термин дня</div>
+                <div class="term_author">Джордж Монбио <br /> Категория: Термин дня</div>
+                <div class="line2"></div>
+
+                <div class="term_text">
+                    В постиндустриальном обществе будут цениться творческие способности, умение критически
+                    мыслить и находить общий язык с другими людьми. Однако современная образовательная...</div>
+                <a href="#" class="more2">ещё..</a>
+
+                <div class="video">видео дня</div>
+                <div class="video_author">Нил Деграсс Тайсон - кому верить?</div>
+
+                <div class="second_picture">
+                    <div class="red_circle">
+                        <div class="play_icon"></div>
+                    </div>
+                </div>
+                <div class="video_text">Передо мной фотография, сделанная в музее палеонтологии. В центре изображен
+                    мальчик в
+                    белом свитере и темных джинсах, стоящий перед витриной с экспонатами...</div>
+            </div>
+        </div>
+
+        <!-------------------- Подвал --------------------->
+
+        <footer>
+            <div class="footer_logo"></div>
+            <div class="footer_text">Сайт как научно–образовательный медиаресурс призван
+                предоставить доступ к знаниям, раскрывающим потенциал личности.
+                Приятного и полезного чтения!" заменив текущий.</div>
+            <div class="first_footer_container">
+                <div class="about">О сайте</div>
+                <div class="privacy_policy">Политика конфиденциальности</div>
+                <div class="contacts">Контакты</div>
+                <div class="use_term">Пользовательское соглашение</div>
+            </div>
+            <div class="right_reserved">© 2017-2021 Lafeum. Все права защищены.</div>
+            <div class="second_footer_container">
+                <svg class="instagram_logo" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M7.00021 0.599976C5.26206 0.599976 5.04392 0.607576 4.36125 0.638643C3.67991 0.669843 3.21484 0.777711 2.8079 0.935979C2.38696 1.09945 2.02989 1.31812 1.67415 1.67399C1.31815 2.02972 1.09948 2.38679 0.93548 2.8076C0.776811 3.21467 0.66881 3.67987 0.638143 4.36095C0.607609 5.04362 0.599609 5.26189 0.599609 7.00004C0.599609 8.73819 0.607343 8.95566 0.638276 9.63834C0.66961 10.3197 0.777478 10.7847 0.935613 11.1917C1.09921 11.6126 1.31788 11.9697 1.67375 12.3254C2.02936 12.6814 2.38643 12.9006 2.8071 13.0641C3.2143 13.2224 3.67951 13.3302 4.36072 13.3614C5.04339 13.3925 5.26139 13.4001 6.99941 13.4001C8.73769 13.4001 8.95516 13.3925 9.63784 13.3614C10.3192 13.3302 10.7848 13.2224 11.192 13.0641C11.6128 12.9006 11.9693 12.6814 12.3249 12.3254C12.6809 11.9697 12.8996 11.6126 13.0636 11.1918C13.2209 10.7847 13.3289 10.3195 13.3609 9.63847C13.3916 8.9558 13.3996 8.73819 13.3996 7.00004C13.3996 5.26189 13.3916 5.04375 13.3609 4.36108C13.3289 3.67974 13.2209 3.21467 13.0636 2.80773C12.8996 2.38679 12.6809 2.02972 12.3249 1.67399C11.9689 1.31798 11.6129 1.09931 11.1916 0.935979C10.7836 0.777711 10.3182 0.669843 9.6369 0.638643C8.95423 0.607576 8.73689 0.599976 6.99821 0.599976H7.00021ZM6.42604 1.7533C6.59644 1.75304 6.78658 1.7533 7.00018 1.7533C8.709 1.7533 8.91154 1.75944 9.58634 1.7901C10.2103 1.81864 10.549 1.9229 10.7746 2.01051C11.0733 2.12651 11.2862 2.26517 11.5101 2.48918C11.7341 2.71318 11.8728 2.92652 11.989 3.22518C12.0766 3.45052 12.181 3.78919 12.2094 4.4132C12.2401 5.08787 12.2468 5.29054 12.2468 6.99856C12.2468 8.70658 12.2401 8.90924 12.2094 9.58392C12.1809 10.2079 12.0766 10.5466 11.989 10.7719C11.873 11.0706 11.7341 11.2833 11.5101 11.5071C11.2861 11.7311 11.0734 11.8698 10.7746 11.9858C10.5493 12.0738 10.2103 12.1778 9.58634 12.2063C8.91167 12.237 8.709 12.2437 7.00018 12.2437C5.29123 12.2437 5.0887 12.237 4.41402 12.2063C3.79002 12.1775 3.45134 12.0733 3.22561 11.9857C2.92694 11.8697 2.7136 11.731 2.4896 11.507C2.2656 11.283 2.12693 11.0702 2.01066 10.7714C1.92306 10.5461 1.81866 10.2074 1.79026 9.58339C1.75959 8.90871 1.75346 8.70604 1.75346 6.99696C1.75346 5.28787 1.75959 5.08627 1.79026 4.4116C1.81879 3.78759 1.92306 3.44892 2.01066 3.22332C2.12666 2.92465 2.2656 2.71131 2.4896 2.48731C2.7136 2.26331 2.92694 2.12464 3.22561 2.00837C3.45121 1.92037 3.79002 1.81637 4.41402 1.7877C5.00443 1.76104 5.23323 1.75304 6.42604 1.7517V1.7533ZM10.4165 2.81598C9.99248 2.81598 9.64848 3.15959 9.64848 3.58372C9.64848 4.00773 9.99248 4.35173 10.4165 4.35173C10.8405 4.35173 11.1845 4.00773 11.1845 3.58372C11.1845 3.15972 10.8405 2.81598 10.4165 2.81598ZM7.00022 3.71332C5.18513 3.71332 3.71352 5.18494 3.71352 7.00002C3.71352 8.81511 5.18513 10.2861 7.00022 10.2861C8.81531 10.2861 10.2864 8.81511 10.2864 7.00002C10.2864 5.18494 8.81531 3.71332 7.00022 3.71332ZM7.0002 4.86667C8.17834 4.86667 9.13355 5.82175 9.13355 7.00002C9.13355 8.17817 8.17834 9.13338 7.0002 9.13338C5.82192 9.13338 4.86684 8.17817 4.86684 7.00002C4.86684 5.82175 5.82192 4.86667 7.0002 4.86667Z"
+                        fill="white" />
+                </svg>
+                <svg class="ball_logo" width="14" height="14" viewBox="0 0 14 14" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M13.3996 6.9911C13.3996 7.42392 13.3555 7.85614 13.269 8.27745C13.1846 8.68876 13.0596 9.09256 12.8958 9.47858C12.7359 9.85777 12.5374 10.2232 12.3055 10.5639C12.0771 10.9026 11.8139 11.2202 11.5248 11.5098C11.2351 11.7982 10.9164 12.0606 10.5779 12.29C10.236 12.5203 9.87011 12.7184 9.49069 12.8792C9.10412 13.0421 8.69938 13.1669 8.28843 13.2511C7.86656 13.3379 7.43277 13.3822 6.99932 13.3822C6.56555 13.3822 6.13178 13.3379 5.71051 13.2511C5.29894 13.1669 4.89422 13.0421 4.50795 12.8792C4.12856 12.7184 3.76228 12.5203 3.42039 12.29C3.08194 12.0606 2.76317 11.7982 2.47409 11.5098C2.18471 11.2202 1.92156 10.9026 1.6928 10.5639C1.46216 10.2232 1.26339 9.85774 1.10277 9.47858C0.93899 9.09256 0.813689 8.68874 0.728994 8.27745C0.643372 7.85614 0.599609 7.42392 0.599609 6.9911C0.599609 6.55796 0.643347 6.12481 0.729019 5.70443C0.813714 5.29312 0.939015 4.88869 1.10279 4.5033C1.26342 4.12384 1.46219 3.75811 1.69283 3.41731C1.92159 3.07842 2.18474 2.76134 2.47412 2.47143C2.7632 2.18307 3.08196 1.92127 3.42042 1.69222C3.7623 1.46096 4.12859 1.26282 4.50797 1.10178C4.89425 0.938541 5.29894 0.813421 5.71054 0.729799C6.13181 0.643675 6.56558 0.599976 6.99935 0.599976C7.43279 0.599976 7.86656 0.643675 8.28846 0.729799C8.69941 0.813446 9.10412 0.938566 9.49072 1.10178C9.87011 1.2628 10.2361 1.46096 10.5779 1.69222C10.9164 1.92127 11.2352 2.18307 11.5249 2.47143C11.814 2.76134 12.0771 3.07842 12.3055 3.41731C12.5374 3.75811 12.7359 4.12386 12.8958 4.5033C13.0596 4.88869 13.1846 5.29312 13.269 5.70443C13.3555 6.12481 13.3996 6.55796 13.3996 6.9911ZM4.6673 2.05451C3.14314 2.77322 2.00558 4.17563 1.65087 5.86578C1.79496 5.86703 4.07258 5.89575 6.69677 5.19951C5.7508 3.52121 4.74012 2.15159 4.6673 2.05451ZM7.1496 6.03994C4.33541 6.88124 1.63494 6.8207 1.53807 6.81697C1.53649 6.87563 1.53369 6.93241 1.53369 6.9911C1.53369 8.39319 2.0634 9.67141 2.93407 10.6379C2.93219 10.6351 4.42792 7.98533 7.37743 7.03292C7.44867 7.00921 7.52119 6.98797 7.59306 6.96738C7.45589 6.65721 7.30616 6.34638 7.1496 6.03994ZM10.6089 2.89492C9.64661 2.04764 8.38313 1.5337 6.9993 1.5337C6.55521 1.5337 6.12425 1.58738 5.71142 1.68661C5.79328 1.79647 6.81992 3.15644 7.75464 4.87028C9.81695 4.09824 10.5954 2.91488 10.6089 2.89492ZM7.96563 7.87175C7.95345 7.87577 7.94128 7.87925 7.92938 7.8836C4.70458 9.0062 3.65148 11.2685 3.64008 11.2932C4.56796 12.0138 5.73177 12.4485 6.99934 12.4485C7.75623 12.4485 8.4772 12.2946 9.13317 12.016C9.05223 11.5391 8.73472 9.86772 7.96563 7.87175ZM10.0535 11.5173C11.2808 10.6903 12.1524 9.37717 12.3955 7.85611C12.283 7.81992 10.7539 7.33652 8.98969 7.61896C9.7066 9.58624 9.99789 11.1884 10.0535 11.5173ZM8.17534 5.68353C8.30219 5.94381 8.42504 6.20871 8.53846 6.47493C8.57879 6.57043 8.61817 6.66406 8.6566 6.75767C10.5342 6.52173 12.384 6.91868 12.4631 6.93489C12.4506 5.64109 11.9871 4.45367 11.2202 3.52404C11.2099 3.53868 10.3333 4.80349 8.17534 5.68353Z"
+                        fill="white" />
+                </svg>
+                <svg class="twitter_logo" width="12" height="10" viewBox="0 0 12 10" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M5.6406 2.7537L5.66578 3.16893L5.2461 3.11808C3.71843 2.92318 2.38383 2.26221 1.25067 1.15211L0.696681 0.6013L0.553988 1.00805C0.251813 1.91477 0.444869 2.87234 1.0744 3.51636C1.41015 3.87227 1.33461 3.92312 0.755438 3.71127C0.553988 3.64347 0.377719 3.59263 0.360931 3.61805C0.302175 3.67737 0.503625 4.44851 0.663106 4.75357C0.881344 5.17727 1.32621 5.5925 1.81305 5.83825L2.22434 6.03315L1.73751 6.04162C1.26746 6.04162 1.25067 6.0501 1.30103 6.22805C1.46891 6.77886 2.13201 7.36357 2.87066 7.61779L3.39108 7.79574L2.93781 8.06691C2.26631 8.45672 1.4773 8.67704 0.688288 8.69399C0.310569 8.70247 0 8.73636 0 8.76178C0 8.84652 1.02404 9.32107 1.61999 9.5075C3.40786 10.0583 5.53148 9.82104 7.1263 8.88042C8.25945 8.21097 9.39261 6.88055 9.92142 5.5925C10.2068 4.9061 10.4922 3.65195 10.4922 3.05029C10.4922 2.66049 10.5174 2.60964 10.9874 2.14357C11.2644 1.8724 11.5246 1.57581 11.575 1.49107C11.6589 1.33007 11.6505 1.33007 11.2224 1.47412C10.509 1.72834 10.4083 1.69445 10.7608 1.31312C11.021 1.04195 11.3316 0.550456 11.3316 0.406397C11.3316 0.380975 11.2057 0.423345 11.063 0.499612C10.9119 0.584352 10.5761 0.711462 10.3243 0.787728L9.87105 0.931787L9.45976 0.652144C9.23313 0.499612 8.91417 0.330131 8.74629 0.279287C8.31821 0.160651 7.6635 0.177599 7.27738 0.313183C6.22816 0.694514 5.56506 1.6775 5.6406 2.7537Z"
+                        fill="white" />
+                </svg>
+                <svg class="youtube_logo" width="14" height="10" viewBox="0 0 14 10" fill="none"
+                    xmlns="http://www.w3.org/2000/svg">
+                    <path fill-rule="evenodd" clip-rule="evenodd"
+                        d="M12.0004 0.874762C12.5512 1.02589 12.9849 1.4712 13.1321 2.03671C13.3996 3.06162 13.3996 5.2001 13.3996 5.2001C13.3996 5.2001 13.3996 7.3385 13.1321 8.36349C12.9849 8.92899 12.5512 9.3743 12.0004 9.52551C11.0023 9.8001 6.99961 9.8001 6.99961 9.8001C6.99961 9.8001 2.99692 9.8001 1.99874 9.52551C1.44797 9.3743 1.01423 8.92899 0.867028 8.36349C0.599609 7.3385 0.599609 5.2001 0.599609 5.2001C0.599609 5.2001 0.599609 3.06162 0.867028 2.03671C1.01423 1.4712 1.44797 1.02589 1.99874 0.874762C2.99692 0.600098 6.99961 0.600098 6.99961 0.600098C6.99961 0.600098 11.0023 0.600098 12.0004 0.874762ZM5.79962 3.40006V7.40006L8.99962 5.40013L5.79962 3.40006Z"
+                        fill="white" />
+                </svg>
+            </div>
+        </footer>
+    </main>
+    <script src="../js/app.js"></script>
 </body>
+
 </html>

@@ -77,6 +77,13 @@ main {
     letter-spacing: 0.02em;
     color: #4A4A4A;
     overflow: hidden;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px;
+    letter-spacing: 0.02em;
+    font-feature-settings: 'liga' off;
+
 }
 
 .values_goals {
@@ -144,7 +151,7 @@ main {
     height: 562px;
     left: 589px;
     top: 300px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 16px;
@@ -243,7 +250,7 @@ main {
     right: 19.68%;
     top: 33.7%;
     bottom: 58.96%;
-    font-family: 'Lato';
+    font-family: 'Lato',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -259,7 +266,7 @@ main {
     right: 39.12%;
     top: 27.33%;
     bottom: 70%;
-    font-family: 'Lato';
+    font-family: 'Lato',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 14px;
@@ -299,7 +306,7 @@ main {
     right: 19.88%;
     top: 54.4%;
     bottom: 38.26%;
-    font-family: 'Lato';
+    font-family: 'Lato',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;
@@ -358,7 +365,7 @@ main {
     right: 19.88%;
     top: 94.05%;
     bottom: 0%;
-    font-family: 'Lato';
+    font-family: 'Lato',sans-serif;
     font-style: normal;
     font-weight: 500;
     font-size: 16px;

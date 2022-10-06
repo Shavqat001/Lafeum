@@ -78,6 +78,7 @@
     text-transform: uppercase;
     font-feature-settings: 'liga' off;
     color: #AFAFAF;
+    font-family: 'Lato',sans-serif;
 }
 
 .first_slot,
@@ -118,7 +119,8 @@
     align-items: center;
 }
 
-.left_side,.right_side {
+.left_side,
+.right_side {
     position: absolute;
     width: 32px;
     height: 32px;
@@ -134,9 +136,11 @@
     text-align: center;
     color: rgba(0, 0, 0, 0.1);
 }
+
 .right_side {
     left: 1020px;
 }
+
 .number_slider {
     position: absolute;
     width: 32px;

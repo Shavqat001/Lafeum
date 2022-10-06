@@ -1,0 +1,28 @@
+.QUOTE {
+    position: absolute;
+    width: 428px;
+    height: 24px;
+    left: 604px;
+    top: 177px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+}
+
+.first_quote,.second_quote {
+    position: absolute;
+    width: 804px;
+    height: 369px;
+    left: 49px;
+    top: 200px;
+    background: #FAFAFA;
+    border-radius: 2px;
+}
+.second_quote {
+    top: 600px;
+}
