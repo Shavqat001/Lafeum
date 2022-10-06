@@ -50,9 +50,11 @@ main {
     color: #4A4A4A;
     overflow: hidden;
 }
+
 .values_goals {
     height: 700px;
 }
+
 .society {
     top: 200px;
 }
@@ -74,6 +76,7 @@ main {
     left: 350px;
     top: 40px;
 }
+
 .Lufeum {
     position: absolute;
     width: 227px;
@@ -147,6 +150,18 @@ main {
     background-size: 120%;
 }
 
+.second_picture {
+    width: 407px;
+    height: 300px;
+    position: absolute;
+    left: 0%;
+    right: 19.88%;
+    top: 69.58%;
+    bottom: 8.17%;
+    background: url('../img/earth.jpg') 50% no-repeat;
+    background-size: 120%;
+}
+
 .first_picture>p {
     font-size: 38px;
     color: #fff;
@@ -176,7 +191,23 @@ main {
     color: #AFAFAF;
 }
 
-.author {
+.quote_text {
+    position: absolute;
+    left: 9.48%;
+    right: 19.68%;
+    top: 33.7%;
+    bottom: 58.96%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #494949;
+}
+
+.quote_author,
+.term_author,
+.video_author {
     position: absolute;
     left: 9.65%;
     right: 39.12%;
@@ -187,21 +218,33 @@ main {
     font-weight: 500;
     font-size: 14px;
     line-height: 18px;
-    color: #707070;
+    color: #000;
 }
 
-.author:nth-child(3) {
+.term_author {
     top: 48.02%;
     bottom: 49.3%;
 }
 
-.line {
+.video_author {
+    left: 9.65%;
+    right: 38.38%;
+    top: 66.97%;
+    bottom: 30.35%;
+}
+
+.line,
+.line2 {
     position: absolute;
     width: 508px;
     height: 1px;
     left: 0px;
     top: 427.76px;
     background: #DEDEDE;
+}
+
+.line2 {
+    top: 706.04px;
 }
 
 .term_text {
@@ -261,4 +304,18 @@ main {
 .video {
     height: 24px;
     top: 854.46px;
+}
+
+.video_text {
+    position: absolute;
+    left: 8.86%;
+    right: 19.88%;
+    top: 94.05%;
+    bottom: 0%;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #494949;
 }

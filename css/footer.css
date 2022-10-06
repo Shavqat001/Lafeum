@@ -37,7 +37,10 @@ footer {
     opacity: 0.7;
 }
 
-.about,.use_term,.privacy_policy,.contacts {
+.about,
+.use_term,
+.privacy_policy,
+.contacts {
     position: absolute;
     height: 26px;
     left: 0%;
@@ -88,7 +91,10 @@ footer {
 
 }
 
-.instagram_logo {
+.instagram_logo,
+.ball_logo,
+.twitter_logo,
+.youtube_logo {
     position: absolute;
     left: 3.89%;
     right: 87.22%;
@@ -97,15 +103,11 @@ footer {
 }
 
 .ball_logo {
-    position: absolute;
     left: 31.67%;
     right: 59.44%;
-    top: 23.33%;
-    bottom: 23.41%;
 }
 
 .twitter_logo {
-    position: absolute;
     left: 59.72%;
     right: 32.21%;
     top: 30%;
@@ -113,9 +115,24 @@ footer {
 }
 
 .youtube_logo {
-    position: absolute;
     left: 87.22%;
     right: 3.89%;
     top: 31.67%;
     bottom: 30%;
+}
+
+.first_footer_container {
+    position: absolute;
+    width: 769px;
+    height: 26px;
+    left: 575px;
+    top: 228px;
+}
+
+.second_footer_container {
+    position: absolute;
+    width: 144px;
+    height: 24px;
+    left: 888px;
+    top: 309px;
 }
