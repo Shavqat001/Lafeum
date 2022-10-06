@@ -85,24 +85,90 @@
 .third_slot {
     position: absolute;
     width: 233px;
-    height: 748px;
+    height: 708px;
     left: 612px;
     top: 497px;
-    font-family: 'Lato';
+    font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 600;
+    font-weight: 500;
     font-size: 13px;
-    line-height: 14px;
+    line-height: 20px;
     letter-spacing: 0.2px;
-    color: #494949;
+    color: #AFAFAF;
 }
 
 .second_slot {
-    height: 708px;
     left: 879px;
 }
 
 .third_slot {
-    height: 708px;
     left: 1130px;
+}
+
+.down_sign {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 944.9px;
+    top: calc(50% - 32px/2 + 216.5px);
+    background: #AEAEAE;
+    opacity: 0.1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.left_side,.right_side {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 860px;
+    top: 1310px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.1);
+}
+.right_side {
+    left: 1020px;
+}
+.number_slider {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    right: 944.9px;
+    top: calc(50% - 32px/2 + 280.5px);
+    background: #aeaeae20;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: sans-serif;
+}
+
+.left_number,
+.right_number {
+    position: absolute;
+    width: 32px;
+    height: 32px;
+    left: 910px;
+    bottom: 753px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    display: flex;
+    align-items: center;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.1);
+}
+
+.right_number {
+    left: 1000px;
+    bottom: 753px;
 }

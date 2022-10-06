@@ -1,12 +1,12 @@
 @font-face {
     font-family: 'Lato';
-    src: url('../fonts/Lato-Black.ttf'),
+    src:
+        url('../fonts/Lato-Regular.ttf'),
+        url('../fonts/Lato-Black.ttf'),
         url('../fonts/Lato-BlackItalic.ttf'),
         url('../fonts/Lato-Italic.ttf'),
         url('../fonts/Lato-Light.ttf'),
         url('../fonts/Lato-LightItalic.ttf'),
-        url('../fonts/Lato-Regular.ttf'),
-        url('../fonts/Lato-Thin.ttf'),
         url('../fonts/Lato-ThinItalic.ttf');
 }
 
@@ -24,9 +24,11 @@
     font-family: 'Manrope';
     src: url('../fonts/Manrope-VariableFont_wght.ttf');
 }
+
 * {
     font-family: 'PT serif';
 }
+
 body {
     height: 100vh;
     margin: 0;
