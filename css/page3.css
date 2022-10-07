@@ -26,6 +26,7 @@
 }
 
 .second_quote {
+    height: 444px;
     top: 600px;
 }
 
@@ -33,7 +34,7 @@
     position: absolute;
     left: 10.72%;
     right: 61.5%;
-    top: 7.61%;
+    top: 30px;
     bottom: 87.31%;
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -46,9 +47,7 @@
 .user_number {
     position: absolute;
     left: 84.31%;
-    right: 5.79%;
-    top: 7.61%;
-    bottom: 87.31%;
+    top: 30px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -57,11 +56,20 @@
     color: #A3A3A3;
 }
 
+.under_source_line {
+    width: 640px;
+    height: 1px;
+    position: absolute;
+    left: 10.72%;
+    top: 67px;
+    background: #F5F5F5;
+}
+
 .user_quote {
     position: absolute;
     left: 10.72%;
     right: 10.72%;
-    top: 21.39%;
+    top: 84px;
     bottom: 62.62%;
     font-family: 'Lato', sans-serif;
     font-style: normal;
@@ -74,21 +82,20 @@
 .user_logo_head {
     position: absolute;
     left: 11%;
-    right: 88%;
-    top: 42.39%;
+    top: 167px;
     bottom: 55.84%;
 }
 
 .user_logo_body {
     position: absolute;
     left: 86.5px;
-    top: 44.5%;
+    top: 175px;
 }
 
 .user_name {
     position: absolute;
     left: 13.5%;
-    top: 41%;
+    top: 162px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -100,9 +107,7 @@
 .achievements {
     position: absolute;
     left: 10.72%;
-    right: 74.99%;
-    top: 48.87%;
-    bottom: 46.05%;
+    top: 192px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 500;
@@ -111,11 +116,29 @@
     color: #6C6C6C;
 }
 
+.under_achievements_line {
+    width: 640px;
+    height: 1px;
+    position: absolute;
+    left: 10.72%;
+    top: 220px;
+    background: #F5F5F5;
+}
+
+.under_share_line {
+    width: 640px;
+    height: 1px;
+    position: absolute;
+    left: 10.72%;
+    top: 280px;
+    background: #F5F5F5;
+}
+
 .heart {
     position: absolute;
     left: 10.74%;
     right: 87.04%;
-    top: 61.49%;
+    top: 242px;
     bottom: 34.12%;
     color: #D8D8D8;
 }
@@ -123,7 +146,7 @@
 .heart_number {
     position: absolute;
     left: 14%;
-    top: 61%;
+    top: 242px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 600;
@@ -135,14 +158,13 @@
 .flag {
     position: absolute;
     left: 140px;
-    top: 225px;
-    bottom: 2.72px;
+    top: 242px;
 }
 
 .flag_number {
     position: absolute;
     left: 20%;
-    top: 61%;
+    top: 242px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -156,15 +178,13 @@
     width: 27.9px;
     height: 21.67px;
     left: 185px;
-    top: 227px;
+    top: 242px;
 }
 
 .comment_number {
     position: absolute;
     left: 26.52%;
-    right: 74.7%;
-    top: 61%;
-    bottom: 35.19%;
+    top: 242px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 700;
@@ -176,18 +196,73 @@
 .share {
     position: absolute;
     left: 83.76%;
-    right: 14.03%;
-    top: 61.49%;
-    bottom: 33.43%;
+    top: 242px;
 }
 
 .user_logo {
+    width: 39px;
+    height: 39px;
     position: absolute;
-    left: 10.72%;
-    right: 84.97%;
-    top: 76.21%;
-    bottom: 13.89%;
+    left: 80px;
+    bottom: 50px;
     background: url('../img/hacker.jpg');
+    background-size: 100%;
+    border-radius: 100px;
+}
+
+.second_user_logo {
+    width: 39px;
+    height: 39px;
+    position: absolute;
+    left: 80px;
+    top: 376px;
+    background: url('../img/hacker.jpg');
+    background-size: 100%;
+    border-radius: 100px;
+}
+
+.user_reply_box {
+    position: absolute;
+    left: 16.69%;
+    top: 302px;
+    width: 657px;
+    height: 55px;
+    background: #F7F7F7;
+    border-radius: 2px;
+}
+
+.user_reply_text {
+    position: absolute;
+    left: 2%;
+    top: 51%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #878787;
+
+}
+
+.user_name_reply {
+    position: absolute;
+    left: 2%;
+    top: 17%;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #4B4B4B;
+}
+
+.another_user {
+    position: absolute;
+    left: 78px;
+    top: 302px;
+    width: 37px;
+    height: 37px;
+    background: url('../img/user.jpg');
     background-size: 100%;
     border-radius: 100px;
 }
@@ -200,6 +275,19 @@
     right: 10.72%;
     top: 76.21%;
     bottom: 14.4%;
+    background: #F7F7F7;
+    display: flex;
+    align-items: center;
+    border-radius: 2px;
+    padding-left: 10px;
+}
+
+.second_write_comment {
+    width: 620px;
+    height: 37px;
+    position: absolute;
+    left: 16.69%;
+    top: 377px;
     background: #F7F7F7;
     display: flex;
     align-items: center;
