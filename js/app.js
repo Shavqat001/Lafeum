@@ -13,7 +13,7 @@ dropDown.onclick = () => {
     if (bool == true) {
         bool = false;
         drop[0].style.transform = 'rotate(0deg)';
-        dropDown.style.height = '60px';
+        dropDown.style.height = '80px';
     } else {
         bool = true;
         drop[0].style.transform = 'rotate(90deg)';

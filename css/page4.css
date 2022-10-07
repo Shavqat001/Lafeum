@@ -1,0 +1,109 @@
+.Author {
+    position: absolute;
+    width: 428px;
+    height: 24px;
+    left: 604px;
+    top: 177px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+}
+
+.best_authors {
+    position: absolute;
+    width: 464px;
+    height: 24px;
+    left: 604px;
+    top: 394px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+}
+
+.best_author {
+    position: absolute;
+    width: 502px;
+    height: 29px;
+    left: 604px;
+    top: 455px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 29px;
+    color: #808080;
+}
+
+
+.date_of_birth {
+    position: absolute;
+    width: 108px;
+    height: 29px;
+    left: 774px;
+    top: 455px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 29px;
+    color: #B7B7B7;
+}
+
+.author_text {
+    position: absolute;
+    width: 685px;
+    height: 20px;
+    left: 604px;
+    top: 492px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 20px;
+    color: #B7B7B7;
+}
+
+.all_authors {
+    position: absolute;
+    width: 151px;
+    height: 24px;
+    left: 604px;
+    top: 893px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 28px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+}
+
+.left_part_author_names,.right_part_author_names {
+    position: absolute;
+    width: 247px;
+    height: 577px;
+    left: 604px;
+    top: 944px;
+    font-family: 'Lato',sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+    color: #707070;
+}
+
+.right_part_author_names {
+    left: 999px;
+}
