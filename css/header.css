@@ -66,11 +66,9 @@ header {
     width: 53.65px;
     height: 53.65px;
     border-radius: 100px;
+    background-image: url('../img/Avatar.png');
     background-size: 100%;
-    background-image: url('../img/hacker.jpg');
     position: absolute;
     left: 1766.35px;
-    right: 100px;
     top: 15.17px;
-    bottom: 2028.17px;
 }

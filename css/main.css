@@ -182,8 +182,8 @@ main {
     right: 19.68%;
     top: 0%;
     bottom: 78.36%;
-    background: url('../img/nature.jpg') 50% no-repeat;
-    background-size: 120%;
+    background: url('../img/Image.png') 50% no-repeat;
+    background-size: 100%;
 }
 
 .second_picture {
@@ -194,8 +194,8 @@ main {
     right: 19.88%;
     top: 69.58%;
     bottom: 8.17%;
-    background: url('../img/earth.jpg') 50% no-repeat;
-    background-size: 120%;
+    background: url('../img/Image2.png') 50% no-repeat;
+    background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -226,6 +226,7 @@ main {
     position: absolute;
     top: 140px;
     left: 50px;
+    font-family: 'Lato',sans-serif;
 }
 
 .first_picture>p:nth-child(2) {

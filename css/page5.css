@@ -1,0 +1,57 @@
+._author_ {
+    position: absolute;
+    width: 57px;
+    height: 24px;
+    left: 561px;
+    top: 112px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    letter-spacing: 0.07em;
+    text-transform: uppercase;
+    font-feature-settings: 'liga' off;
+    color: #000000;
+}
+
+._Albert_ {
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 559px;
+    top: 164px;
+    background: #FFFFFF;
+    border-radius: 2px;
+    background: url('../img/albert_einstein.png');
+}
+
+.full_name {
+    position: absolute;
+    height: 29px;
+    left: 36.46%;
+    right: 37.38%;
+    top: 174px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #494949;
+}
+
+.birth_date {
+    position: absolute;
+    width: 108px;
+    height: 29px;
+    left: 215px;
+    top: 1px;
+    font-family: 'Lato';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 29px;
+    color: #494949;
+}
