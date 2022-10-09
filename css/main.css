@@ -17,7 +17,6 @@
         url('../fonts/PTSerif-Bold.ttf'),
         url('../fonts/PTSerif-BoldItalic.ttf'),
         url('../fonts/PTSerif-Italic.ttf');
-
 }
 
 @font-face {
@@ -25,8 +24,9 @@
     src: url('../fonts/Manrope-VariableFont_wght.ttf');
 }
 
-* {
-    font-family: 'PT serif';
+@font-face {
+    font-family: 'Thames';
+    src: url('../fonts/thamesa.ttf');
 }
 
 body {
@@ -43,7 +43,6 @@ main {
     width: 1920px;
     height: 2097px;
     background: #FAFAFA;
-    ;
 }
 
 /*---------- Левая часть -------------*/
@@ -54,7 +53,7 @@ main {
     position: absolute;
     left: 105px;
     top: 112px;
-    font-family: 'Thames';
+    font-family: 'Thames',sans-serif;
     font-size: 16px;
     line-height: 24px;
     letter-spacing: 0.07em;

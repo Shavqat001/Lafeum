@@ -1,0 +1,57 @@
+main {
+    height: 1675px;
+}
+
+.not_found_container {
+    width: 1316px;
+    height: 559px;
+    position: absolute;
+    top: 159px;
+    left: 294px;
+}
+
+.button {
+    position: absolute;
+    width: 274.33px;
+    height: 44px;
+    left: 824.71px;
+    top: 777.92px;
+    background: #434343;
+    border-radius: 2px;
+}
+
+.inside_button {
+    position: absolute;
+    height: 20px;
+    top: 10px;
+    left: 34px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 20px;
+    color: #FFFFFF;
+}
+
+.registration,
+.sign_in {
+    position: absolute;
+    width: 173.87px;
+    height: 44px;
+    left: 1520.84px;
+    top: 20px;
+    background: #20A6FC;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.sign_in {
+    width: 115px;
+    left: 1704px;
+}
