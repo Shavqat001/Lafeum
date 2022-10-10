@@ -1,3 +1,19 @@
+._Favotite_ {
+    position: absolute;
+    width: 246px;
+    height: 24px;
+    left: 560.86px;
+    top: 177px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+}
+
 .Profile {
     position: absolute;
     width: 83px;
@@ -55,6 +71,15 @@
 
 }
 
+.under_user_line {
+    width: 232px;
+    height: 2px;
+    position: absolute;
+    left: 100px;
+    top: 258px;
+    background: #F5F5F5;
+}
+
 .user_menu {
     position: absolute;
     width: 210px;
@@ -70,19 +95,6 @@
     top: 289px;
     left: 108px;
     border-radius: 50%;
-    background: #DADADA;
-}
-
-.user_logo_head {
-    position: absolute;
-    top: 5px;
-    left: 9px;
-}
-
-.user_logo_body {
-    position: absolute;
-    top: 13px;
-    left: 7px;
 }
 
 .edit {
@@ -98,6 +110,71 @@
     line-height: 20px;
     color: #676767;
 }
+
 .bag {
-    
+    width: 26px;
+    height: 26px;
+    position: absolute;
+    top: 349px;
+    left: 108px;
+}
+
+.favorite_word {
+    position: absolute;
+    height: 20px;
+    left: 151px;
+    top: 354px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #676767;
+}
+
+.settings_icon {
+    position: absolute;
+    top: 409px;
+    left: 109px;
+}
+
+.settings_word {
+    position: absolute;
+    height: 20px;
+    left: 151px;
+    top: 414px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #676767;
+}
+
+.under_settings_line {
+    width: 232px;
+    height: 2px;
+    position: absolute;
+    top: 465px;
+    left: 100px;
+    background: #F5F5F5;
+}
+
+.log_out_icon {
+    position: absolute;
+    top: 495px;
+    left: 115px;
+}
+
+.log_out_word {
+    position: absolute;
+    height: 20px;
+    top: 499px;
+    left: 157px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 20px;
+    color: #676767;
 }
