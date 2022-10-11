@@ -1,3 +1,7 @@
+.center {
+    height: 2260px;
+}
+
 ._Favotite_ {
     position: absolute;
     width: 246px;
@@ -177,4 +181,23 @@
     font-size: 16px;
     line-height: 20px;
     color: #676767;
+}
+
+.first_video_container {
+    top: 288px;
+}
+
+.term_container {
+    top: 993px;
+    left: 559px;
+}
+
+.second_box {
+    position: absolute;
+    width: 801px;
+    height: 369px;
+    left: 557px;
+    top: 587px;
+    background: #FBFBFB;
+    border-radius: 2px;
 }
