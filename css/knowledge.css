@@ -1,0 +1,113 @@
+.first_box {
+    width: 820px;
+    height: 400px;
+    position: absolute;
+    top: 400px;
+    left: 540px;
+    background: #FAFAFA;
+    border-radius: 16px;
+    font-family: 'Manrope';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #9B9B9B;
+}
+
+._Personality_Skills_ {
+    position: absolute;
+    height: 64px;
+    left: 35px;
+    top: 45px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 32px;
+    line-height: 64px;
+    text-align: center;
+    font-feature-settings: 'liga' off;
+    color: #494949;
+}
+
+.links {
+    color: #3366CC;
+    text-decoration: none;
+    position: absolute;
+    width: 222px;
+    height: 295px;
+    top: 139.98px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 0.2px;
+}
+
+.links:nth-of-type(2) {
+    left: 35px;
+}
+
+.links:nth-of-type(3) {
+    left: 300px;
+}
+
+.links:nth-of-type(4) {
+    left: 560px;
+}
+
+.links>a {
+    color: #3366CC;
+    text-decoration: none;
+}
+
+.second_box {
+    width: 820px;
+    height: 400px;
+    position: absolute;
+    top: 830px;
+    left: 540px;
+    background: #FAFAFA;
+    border-radius: 16px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 550;
+    font-size: 32px;
+    line-height: 24px;
+    font-feature-settings: 'liga' off;
+    color: #494949;
+}
+
+._Economics_Business_ {
+    position: absolute;
+    top: 45px;
+    left: 35px;
+}
+
+.second_links {
+    position: absolute;
+    width: 171px;
+    height: 148px;
+    left: 48.36px;
+    top: 126px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 30px;
+    letter-spacing: 0.2px;
+}
+.second_links>a {
+    color: #3366CC;
+    text-decoration: none;
+}
+.second_links:nth-of-type(2) {
+    left: 35px;
+}
+.second_links:nth-of-type(3) {
+    left: 300px;
+}
+.second_links:nth-of-type(4) {
+    left:560px;
+}

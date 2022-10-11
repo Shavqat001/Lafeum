@@ -1,0 +1,93 @@
+form {
+    width: 554px;
+    height: 669px;
+    background: #fff;
+    position: absolute;
+    top: 223px;
+    left: 975px;
+}
+
+.things {
+    position: absolute;
+    top: 223px;
+    left: 230px;
+}
+
+input {
+    background: transparent;
+}
+
+.password {
+    position: absolute;
+    width: 74.58px;
+    height: 15px;
+    left: 77px;
+    top: 357px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 110%;
+    color: #82869A;
+
+}
+
+.enter_your_password {
+    position: absolute;
+    width: 239.2px;
+    height: 18px;
+    left: 75px;
+    top: 381px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 110%;
+    color: rgba(130, 134, 154, 0.5);
+    outline: none;
+    border: none;
+}
+
+.wrong {
+    position: absolute;
+    left: 463px;
+    top: 377px;
+}
+
+.red_line {
+    position: absolute;
+    width: 407px;
+    height: 2px;
+    left: 77px;
+    top: 407px;
+    background: #F26D5E;
+}
+
+.confirm {
+    position: absolute;
+    width: 233.9px;
+    height: 15px;
+    left: 77px;
+    top: 434px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 110%;
+    color: #82869A;
+}
+
+.under_confirm_line {
+    position: absolute;
+    width: 407px;
+    height: 2px;
+    left: 77px;
+    top: 484px;
+    background: #EBEBEB;
+}
+._registration_button_ {
+    width: 407px;
+    height:55px;
+    top: 526px;
+    left: 77px;
+}
