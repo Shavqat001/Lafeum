@@ -85,9 +85,200 @@ input {
     top: 484px;
     background: #EBEBEB;
 }
+
 ._registration_button_ {
     width: 407px;
-    height:55px;
+    height: 55px;
     top: 526px;
     left: 77px;
+}
+
+._Edit_ {
+    position: absolute;
+    width: 368px;
+    height: 24px;
+    left: 560.86px;
+    top: 177px;
+    font-family: 'PT Serif';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 48px;
+    line-height: 24px;
+    display: flex;
+    align-items: center;
+    color: #4A4A4A;
+}
+
+.change_photo_profile {
+    position: absolute;
+    width: 220.21px;
+    height: 20px;
+    left: 561px;
+    top: 280px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #676767;
+}
+
+.user_photo {
+    width: 83px;
+    height: 83px;
+    position: absolute;
+    left: 560.86px;
+    right: 1275.62px;
+    top: 310.35px;
+    bottom: 1703.13px;
+    background: url('../img/Avatar3.png') 50% no-repeat;
+    background-size: 100%;
+    border-radius: 100px;
+}
+
+.change_avatar_button {
+    position: absolute;
+    width: 196.57px;
+    height: 44px;
+    left: 666.11px;
+    top: 330.11px;
+    background: #20A6FC;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #fff;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.delete {
+    position: absolute;
+    width: 127.97px;
+    height: 44px;
+    left: 878.94px;
+    top: 330.11px;
+    background: #F7F7F7;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 700;
+    font-size: 16px;
+    color: #676767;
+}
+
+.user_name_prompt,
+.email_adress_prompt,
+.phone_number_prompt {
+    width: 220.21px;
+    height: 20px;
+    position: absolute;
+    left: 562px;
+    top: 442px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #676767;
+}
+
+.email_adress_prompt {
+    top: 543px;
+}
+
+.phone_number_prompt {
+    top: 642px;
+}
+
+.user_name,
+.email_adress,
+.phone_number {
+    position: absolute;
+    width: 532.5px;
+    height: 44px;
+    left: 563.2px;
+    top: 469.81px;
+    background: #F7F7F7;
+    border-radius: 2px;
+}
+
+.email_adress {
+    top: 570px;
+}
+
+.phone_number {
+    top: 669px;
+}
+
+.user_name>input,
+.email_adress>input,
+.phone_number>input {
+    width: 500px;
+    position: absolute;
+    top: 7px;
+    left: 19px;
+    border: none;
+    outline: none;
+    line-height: 28px;
+}
+
+.save_changes,
+.save_changes2,
+.save_changes3 {
+    position: absolute;
+    width: 211.07px;
+    height: 44px;
+    left: 1112.63px;
+    top: 469.81px;
+    background: #20A6FC;
+    border-radius: 2px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Lato', sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: #fff;
+}
+
+.save_changes2 {
+    top: 570px;
+}
+
+.save_changes3 {
+    top: 669px;
+}
+
+.data_security {
+    position: absolute;
+    height: 29px;
+    left: 29.33%;
+    right: 42.43%;
+    top: 793.77px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 29px;
+    color: #6C6C64;
+}
+
+.simple_text {
+    position: absolute;
+    width: 755.26px;
+    height: 35.46px;
+    left: 563.2px;
+    top: 843.08px;
+    font-family: 'Lato', sans-serif;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 13px;
+    line-height: 20px;
+    color: #676767;
+
 }
