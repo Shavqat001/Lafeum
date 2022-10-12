@@ -21,10 +21,10 @@ footer {
 
 .footer_text {
     position: absolute;
+    width: 507px;
     height: 63px;
-    left: 36.77%;
-    right: 36.82%;
-    top: calc(50% - 63px/2 - 50.5px);
+    left: 706px;
+    top: 133px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 400;

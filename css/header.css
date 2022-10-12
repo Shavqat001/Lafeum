@@ -18,16 +18,10 @@ header {
     top: 32px;
 }
 
-.header_link:hover {
-    border-bottom: 2px solid dodgerblue;
-}
-
 .main_logo {
     position: absolute;
-    left: 5.21%;
-    right: 91.09%;
-    top: 10%;
-    bottom: 97%;
+    left: 100px;
+    top: 11px;
 }
 
 /* Links */

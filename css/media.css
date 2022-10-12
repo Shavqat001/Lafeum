@@ -1,0 +1,391 @@
+@media (max-width:1024px),
+(max-height:768px) {
+    header {
+        width: 640px;
+        height: 28px;
+    }
+
+    .header_link {
+        font-size: 5px;
+        line-height: 7px;
+        top: 11px;
+    }
+
+    .main_logo {
+        width: 24px;
+        height: 17px;
+        left: 33px;
+        top: 4px;
+    }
+
+    .header_link:nth-child(2) {
+        left: 82px;
+    }
+
+    .header_link:nth-child(3) {
+        left: 129px;
+    }
+
+    .header_link:nth-child(4) {
+        left: 159px;
+    }
+
+    .header_link:nth-child(5) {
+        left: 186px;
+    }
+
+    .header_link:nth-child(6) {
+        left: 214px;
+    }
+
+    .header_link:nth-child(7) {
+        left: 238px;
+    }
+
+    .header_link:nth-child(8) {
+        left: 269px;
+    }
+
+    .user {
+        width: 18px;
+        height: 18px;
+        left: 589px;
+        top: 5px;
+    }
+
+    /*----------- MAIN ---------- */
+
+    main {
+        width: 640px;
+        height: 699px;
+    }
+
+    /************ Левая часть ***********/
+
+    .theme {
+        width: 17px;
+        height: 8px;
+        left: 35px;
+        top: 37px;
+        font-size: 5.3px;
+        line-height: 8px;
+        letter-spacing: 0.023em;
+    }
+
+    .values_goals,
+    .society,
+    .science_philosophy,
+    .humor_irony {
+        width: 150px;
+        height: 26.6px;
+        left: 33.3px;
+        top: 59px;
+        line-height: 10px;
+        letter-spacing: 0.02em;
+        font-size: 8px;
+    }
+
+    .values_goals {
+        height: auto;
+    }
+
+    .society,
+    .humor_irony,
+    .science_philosophy {
+        top: 58px;
+    }
+
+    .left_drop_down_text {
+        border-bottom: 1px solid #ddd;
+        width: 106px;
+        line-height: 8.6px;
+        font-size: 5px;
+    }
+
+    .left_drop_down_text:first-child {
+        font-size: 8px;
+        border-bottom: none;
+    }
+
+    .left_drop_down_text:last-of-type {
+        border-bottom: none;
+    }
+
+    .drop_down_logo {
+        width: 3px;
+        height: 4px;
+        background: #B7B7B7;
+        clip-path: polygon(0 0, 100% 50%, 0% 100%);
+        position: absolute;
+        left: 116px;
+        top: 13px;
+    }
+
+    /*-------- Средняя часть -------*/
+
+    .center {
+        position: absolute;
+        width: 301px;
+        height: 536px;
+        left: 169px;
+        top: 28px;
+        background: #FFF;
+        box-shadow: 0px 4px 25px rgba(0, 0, 0, 0.05);
+    }
+
+    .lafeum {
+        width: 75px;
+        height: 8px;
+        left: 193px;
+        top: 76px;
+        font-size: 19px;
+        line-height: 8px;
+    }
+
+    .text {
+        width: 246px;
+        height: 187px;
+        left: 196px;
+        top: 100px;
+        font-size: 5px;
+        line-height: 8px;
+    }
+
+    /*------------- Правая часть -----------*/
+
+    .right_sign {
+        width: 169px;
+        height: 448px;
+        left: 470px;
+        top: 28px;
+    }
+
+    .first_picture {
+        width: 136px;
+        height: 97px;
+        right: 6.56%;
+        bottom: 26.12%;
+    }
+
+    .second_picture {
+        width: calc(407px/3);
+        height: calc(300px/3);
+        right: 33px;
+        top: 339px;
+    }
+
+    .red_circle {
+        width: 33px;
+        height: 33px;
+        border-radius: 50%;
+        opacity: 0.9;
+    }
+
+    .play_icon {
+        width: 7.6px;
+        height: 11px;
+    }
+
+    .first_picture>p {
+        font-size: 12px;
+        top: 46px;
+        left: 16px;
+    }
+
+    .first_picture>p:nth-child(2) {
+        font-size: 5px;
+        top: 73px;
+    }
+
+    .quote {
+        height: 8px;
+        left: 16px;
+        top: 106px;
+        font-size: 5px;
+        line-height: 8px;
+        letter-spacing: 0.023em;
+    }
+
+    .quote_text {
+        left: 3%;
+        top: 271px;
+        font-size: 5px;
+        line-height: 6.6px;
+    }
+
+    .quote_author,
+    .term_author,
+    .video_author {
+        left: 3.2%;
+        top: 9px;
+        font-size: 5px;
+        line-height: 9px;
+    }
+
+    .term_author {
+        top: 48.02%;
+        bottom: 49.3%;
+    }
+
+    .video_author {
+        left: 3.2%;
+        top: 328px;
+    }
+
+    .line,
+    .line2 {
+        width: 169px;
+        height: 0.33px;
+        top: 142px;
+    }
+
+    .line2 {
+        top: 235px;
+    }
+
+    .term_text {
+        left: 3.1%;
+        top: 150px;
+        font-size: 5px;
+        line-height: 6.6px;
+    }
+
+    .more,
+    .more2 {
+        width: 14px;
+        height: 8px;
+        left: calc(349px/3);
+        top: calc(539px/3);
+        font-size: calc(14px/3);
+        line-height: calc(24px/3);
+        letter-spacing: calc(0.07em/3);
+    }
+
+    .more2 {
+        left: calc(348.97px/3);
+        top: calc(818.43px/3);
+    }
+
+    .day_term,
+    .video {
+        height: calc(24px/3);
+        left: calc(48px/3);
+        top: calc(597.28px/3);
+        font-size: calc(16px/3);
+        line-height: calc(24px/3);
+        letter-spacing: calc(0.07em/3);
+    }
+
+    .video {
+        height: calc(24px/3);
+        top: 312px;
+    }
+
+    .video_text {
+        left: calc(8.86%/3);
+        top: 448px;
+        font-size: calc(16px/3);
+        line-height: calc(20px/3);
+    }
+
+    /******* FOOTER ********/
+
+    footer {
+        width: 640px;
+        height: 143px;
+    }
+
+    .footer_logo {
+        width: 29px;
+        height: 24px;
+        left: 15%;
+        top: 3.5%;
+    }
+
+    .footer_text {
+        width: 169px;
+        height: 21px;
+        left: 235px;
+        top: 44px;
+        font-size: calc(16px/3);
+        line-height: calc(21px/3);
+        letter-spacing: calc(-0.231818px/3);
+    }
+
+    .about,
+    .use_term,
+    .privacy_policy,
+    .contacts {
+        width: 230px;
+        height: 26px;
+        left: 0%;
+        right: 92.46%;
+        top: calc((50% - 26px/2 + 25px)/3);
+        font-size: 16px;
+        line-height: 26px;
+    }
+
+    .use_term {
+        left: 15.21%;
+        right: 55.14%;
+    }
+
+    .privacy_policy {
+        height: 18px;
+        left: 53.97%;
+        right: 17.69%;
+        top: calc((50% - 18px/2 + 25px)/3);
+        font-size: 15px;
+        line-height: 18px;
+        letter-spacing: -0.204545px;
+    }
+
+    .contacts {
+        left: 90.64%;
+        right: -0.13%;
+    }
+
+    .right_reserved {
+        width: 100%;
+        height: 59px;
+    }
+
+    .instagram_logo,
+    .ball_logo,
+    .twitter_logo,
+    .youtube_logo {
+        position: absolute;
+        left: 3.89%;
+        top: 23.33%;
+    }
+
+    .ball_logo {
+        left: 31.67%;
+        right: 59.44%;
+    }
+
+    .twitter_logo {
+        left: 59.72%;
+        top: 30%;
+    }
+
+    .youtube_logo {
+        left: 87.22%;
+        top: 31.67%;
+    }
+
+    .first_footer_container {
+        width: 769px;
+        height: 26px;
+        left: 575px;
+        top: 228px;
+    }
+
+    .second_footer_container {
+        width: 144px;
+        height: 24px;
+        left: 888px;
+        top: 309px;
+    }
+
+}

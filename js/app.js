@@ -20,7 +20,18 @@ dropDown.onclick = () => {
         dropDown.style.height = 'auto';
     }
 }
-
+let x = window.matchMedia("(max-width:1024px),(max-height:768px)")
+dropDown.onclick = () => {
+    if(x.matches&&bool==true) {
+        bool = false;
+        dropDown.style.height = '26px';
+        drop[0].style.transform = 'rotate(0deg)';
+    } else {
+        bool = true;
+        drop[0].style.transform = 'rotate(90deg)';
+        dropDown.style.height = 'auto';
+    }
+}
 society.onclick = () => {
     if (bool2 == true) {
         bool2 = false;
