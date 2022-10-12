@@ -84,6 +84,7 @@ footer {
     background: #1B242F;
     font-family: 'Lato', sans-serif;
     display: flex;
+    color: #D9DBE1;
     align-items: center;
     justify-content: center;
 }

@@ -142,6 +142,10 @@
         line-height: 8px;
     }
 
+    ._our_goal_ {
+        font-size: 8px;
+    }
+
     .text {
         width: 246px;
         height: 187px;
@@ -207,8 +211,9 @@
     }
 
     .quote_text {
-        left: 3%;
-        top: 271px;
+        width: 130px;
+        right: 100px;
+        top: 250px;
         font-size: 5px;
         line-height: 6.6px;
     }
@@ -216,20 +221,27 @@
     .quote_author,
     .term_author,
     .video_author {
-        left: 3.2%;
-        top: 9px;
+        right: 66px;
         font-size: 5px;
         line-height: 9px;
     }
 
+    .quote_author {
+        width: 70px;
+        top: 120px;
+        right: 198px;
+
+    }
+
     .term_author {
-        top: 48.02%;
+        top: 210px;
         bottom: 49.3%;
     }
 
     .video_author {
-        left: 3.2%;
-        top: 328px;
+        width: 100px;
+        right: 100px;
+        top: 320px;
     }
 
     .line,
@@ -244,7 +256,8 @@
     }
 
     .term_text {
-        left: 3.1%;
+        width: 130px;
+        right: 100px;
         top: 150px;
         font-size: 5px;
         line-height: 6.6px;
@@ -255,7 +268,7 @@
         width: 14px;
         height: 8px;
         left: calc(349px/3);
-        top: calc(539px/3);
+        top: 180px;
         font-size: calc(14px/3);
         line-height: calc(24px/3);
         letter-spacing: calc(0.07em/3);
@@ -263,14 +276,14 @@
 
     .more2 {
         left: calc(348.97px/3);
-        top: calc(818.43px/3);
+        top: 280px;
     }
 
     .day_term,
     .video {
         height: calc(24px/3);
         left: calc(48px/3);
-        top: calc(597.28px/3);
+        top: 195px;
         font-size: calc(16px/3);
         line-height: calc(24px/3);
         letter-spacing: calc(0.07em/3);
@@ -278,7 +291,7 @@
 
     .video {
         height: calc(24px/3);
-        top: 312px;
+        top: 295px;
     }
 
     .video_text {
@@ -298,8 +311,8 @@
     .footer_logo {
         width: 29px;
         height: 24px;
-        left: 15%;
-        top: 3.5%;
+        left: 305px;
+        top: 13px;
     }
 
     .footer_text {
@@ -318,74 +331,70 @@
     .contacts {
         width: 230px;
         height: 26px;
-        left: 0%;
-        right: 92.46%;
-        top: calc((50% - 26px/2 + 25px)/3);
-        font-size: 16px;
+        /* left: 191px;
+        top: 84px; */
+        font-size: 5px;
         line-height: 26px;
     }
 
     .use_term {
         left: 15.21%;
-        right: 55.14%;
     }
 
     .privacy_policy {
         height: 18px;
-        left: 53.97%;
-        right: 17.69%;
-        top: calc((50% - 18px/2 + 25px)/3);
-        font-size: 15px;
         line-height: 18px;
         letter-spacing: -0.204545px;
     }
 
     .contacts {
         left: 90.64%;
-        right: -0.13%;
     }
 
     .right_reserved {
         width: 100%;
-        height: 59px;
+        height: 19.6px;
+        font-size: 4.6px;
     }
 
     .instagram_logo,
     .ball_logo,
     .twitter_logo,
     .youtube_logo {
+        width: 5px;
+        height: 5px;
         position: absolute;
-        left: 3.89%;
-        top: 23.33%;
+        left: 5px;
+        top: 0;
     }
 
     .ball_logo {
-        left: 31.67%;
-        right: 59.44%;
+        top: 0;
+        left: 20px;
     }
 
     .twitter_logo {
-        left: 59.72%;
-        top: 30%;
+        top: 0;
+        left: 35px;
     }
 
     .youtube_logo {
-        left: 87.22%;
-        top: 31.67%;
+        top: 0;
+        left: 50px;
     }
 
     .first_footer_container {
-        width: 769px;
-        height: 26px;
-        left: 575px;
-        top: 228px;
+        width: 256px;
+        height: 8.6px;
+        left: 191px;
+        top: 60px;
     }
 
     .second_footer_container {
         width: 144px;
         height: 24px;
-        left: 888px;
-        top: 309px;
+        left: 285px;
+        top: 106px;
     }
 
 }

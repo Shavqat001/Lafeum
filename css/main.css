@@ -77,32 +77,27 @@ main {
     font-family: 'PT Serif';
     font-style: normal;
     font-feature-settings: 'liga' off;
-    line-height: 32px;
+    line-height: 50px;
     letter-spacing: 0.02em;
     border-bottom: 1px solid #ddd;
+    font-size: 24px;
 }
 
 .values_goals {
     height: auto;
 }
 
-.society {
-    top: 160px;
-}
-
-.science_philosophy {
-    top: 160px;
-}
-
-.humor_irony {
-    top: 160px;
+.society,.humor_irony,.science_philosophy  {
+    top: 170px;
 }
 
 .left_drop_down_text {
+    cursor: pointer;
     border-bottom: 1px solid #ddd;
     width: 320px;
     line-height: 26px;
     font-size: 16px;
+    font-family: 'PT Serif';
 }
 
 .left_drop_down_text:first-child {
@@ -150,7 +145,9 @@ main {
     text-align: center;
     color: #4A4A4A;
 }
-
+._our_goal_ {
+    font-size: 24px;
+}
 .text {
     position: absolute;
     width: 739px;
@@ -193,8 +190,8 @@ main {
     width: 407px;
     height: 300px;
     position: absolute;
-    right: 101px;
-    top: 1412px;
+    right: 100px;
+    bottom: 100px;
     background: url('../img/Image2.png') 50% no-repeat;
     background-size: 100%;
     display: flex;
@@ -369,9 +366,7 @@ main {
 .video_text {
     position: absolute;
     left: 8.86%;
-    right: 19.88%;
     top: 94.05%;
-    bottom: 0%;
     font-family: 'Lato', sans-serif;
     font-style: normal;
     font-weight: 500;
