@@ -365,6 +365,7 @@ main {
 
 .video_text {
     position: absolute;
+    width: 362px;
     left: 8.86%;
     top: 94.05%;
     font-family: 'Lato', sans-serif;

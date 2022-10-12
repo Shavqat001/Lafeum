@@ -295,7 +295,8 @@
     }
 
     .video_text {
-        left: calc(8.86%/3);
+        right: 100px;
+        width: 120px;
         top: 448px;
         font-size: calc(16px/3);
         line-height: calc(20px/3);
