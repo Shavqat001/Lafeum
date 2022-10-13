@@ -96,7 +96,7 @@
     }
 
     .left_drop_down_text {
-        border-bottom: 1px solid #ddd;
+        border-bottom: 0.3px solid #ddd;
         width: 106px;
         line-height: 8.6px;
         font-size: 5px;
@@ -332,8 +332,6 @@
     .contacts {
         width: 230px;
         height: 26px;
-        /* left: 191px;
-        top: 84px; */
         font-size: 5px;
         line-height: 26px;
     }
@@ -408,7 +406,7 @@
         font-size: 16px;
         line-height: 8px;
     }
-    
+
     .search_bar {
         width: 239px;
         height: 17px;
@@ -416,13 +414,13 @@
         top: 92px;
         padding: 4.6px 5.3px;
     }
-    
+
     .search_icon {
         width: 6px;
         height: 6px;
         right: 6px;
     }
-    
+
     .search_field {
         width: 216.6px;
         height: 8px;
@@ -438,11 +436,11 @@
         line-height: 9.6px;
         font-size: 5px;
     }
-    
+
     .words {
         font-size: 8px;
     }
-    
+
     .all_letters {
         height: 8px;
         left: 201px;
@@ -451,7 +449,7 @@
         line-height: 8px;
         letter-spacing: 0.023em;
     }
-    
+
     .first_slot,
     .second_slot,
     .third_slot {
@@ -463,25 +461,27 @@
         line-height: 6.2px;
         letter-spacing: 0.06px;
     }
-    
+
     .second_slot {
         left: 293px;
     }
-    
+
     .third_slot {
         left: 376.6px;
     }
-    
+
     .down_sign {
         width: 10.6px;
         height: 10.6px;
         right: 314.6px;
         top: 413px;
     }
+
     .sign {
         width: 4.3px;
         height: 4.3px;
     }
+
     .left_side,
     .right_side {
         width: 10.6px;
@@ -491,11 +491,11 @@
         font-size: 4.3px;
         line-height: 6.2px;
     }
-    
+
     .right_side {
         left: 340px;
     }
-    
+
     .number_slider {
         width: 10.6px;
         height: 10.6px;
@@ -503,7 +503,7 @@
         top: 436px;
         font-size: 4.3px;
     }
-    
+
     .left_number,
     .right_number {
         width: 10.6px;
@@ -513,10 +513,220 @@
         font-size: 4.3px;
         line-height: 6.3px;
     }
-    
+
     .right_number {
         left: 333px;
     }
-   
 
+    /************ Qoute page ************/
+
+    ._Quote_ {
+        width: 142.6px;
+        height: 8px;
+        left: 201px;
+        top: 59px;
+        font-size: 16px;
+        line-height: 8px;
+    }
+
+    .first_quote,
+    .second_quote {
+        width: 268px;
+        height: 123px;
+        left: 16.3px;
+        top: 66.6px;
+    }
+
+    .second_quote {
+        height: 148px;
+        top: 200px;
+    }
+
+    .source {
+        left: 3.57%;
+        top: 10px;
+        font-size: 4.2px;
+        line-height: 6.6px;
+    }
+
+    .user_number {
+        position: absolute;
+        left: 86%;
+        top: 10px;
+        font-size: 4.2px;
+        line-height: 6.6px;
+    }
+
+    .under_source_line {
+        width: 235px;
+        height: 0.3px;
+        left: 10px;
+        top: 23px;
+    }
+
+    .user_quote {
+        left: 3.6%;
+        top: 28px;
+        font-size: 5.3px;
+        line-height: 8px;
+    }
+
+    .user_logo_head {
+        width: 3px;
+        height: 2px;
+        left: 3.85%;
+        top: 55.6px;
+    }
+
+    .user_logo_body {
+        width: 4px;
+        height: 2px;
+        left: 10px;
+        top: 58px;
+    }
+
+    .user_name {
+        position: absolute;
+        left: 6%;
+        top: 53px;
+        font-size: 5px;
+        line-height: 9.6px;
+        font-weight: 400;
+    }
+
+    .achievements {
+        left: 3.6%;
+        top: 64px;
+        font-size: 4.3px;
+        line-height: 6.6px;
+    }
+
+    .under_achievements_line {
+        width: 235px;
+        height: 0.3px;
+        left: 3.6%;
+        top: 73px;
+    }
+
+    .under_share_line {
+        width: 213px;
+        height: 0.3px;
+        left: 3.6%;
+        top: 93px;
+    }
+
+    .heart {
+        width: 7px;
+        height: 6px;
+        left: 10px;
+        top: 81px;
+    }
+
+    .heart_number {
+        left:18px;
+        top: 81px;
+        font-size: 4px;
+        line-height: 6.6px;
+    }
+
+    .flag {
+        width: 7px;
+        height: 6px;
+        left: 25px;
+        top: 81px;
+    }
+
+    .flag_number {
+        left: 32px;
+        top: 81px;
+        font-size: 4px;
+        line-height: 6.6px;
+    }
+
+    .comment {
+        width: 9px;
+        height: 7px;
+        left: 38px;
+        top: 81px;
+    }
+
+    .comment_number {
+        left: 47px;
+        top: 81px;
+        font-size: 4px;
+        line-height: 6.6px;
+    }
+
+    .share {
+        width: 6.6px;
+        height: 7px;
+        left: 235px;
+        top: 80.6px;
+    }
+
+    .user_logo {
+        width: 13px;
+        height: 13px;
+        left: 10px;
+        bottom: 12px;
+    }
+
+    .second_user_logo {
+        width: 13px;
+        height: 13px;
+        left: 15px;
+        top: 125px;
+    }
+
+    .user_reply_box {
+        left: 10%;
+        top: 100px;
+        width: 219px;
+        height: 18px;
+    }
+
+    .user_reply_text {
+        left: 5px;
+        top: 40%;
+        font-size: 4px;
+        line-height: 6.6px;
+
+    }
+
+    .user_name_reply {
+        left: 5px;
+        top: 5.6%;
+        font-size: 4px;
+        line-height: 6.6px;
+    }
+
+    .another_user {
+        left: 10px;
+        top: 100px;
+        width: 12px;
+        height: 12px;
+    }
+
+    .write_comment {
+        width: 206px;
+        height: 12px;
+        left: 12%;
+        top: 80%;
+        padding-left: 3.3px;
+    }
+
+    .second_write_comment {
+        width: 206px;
+        height: 12px;
+        left: 30px;
+        top: 125px;
+        padding-left: 3.3px;
+    }
+
+    .inside_comment {
+        width: 89.3px;
+        height: 6.6px;
+        font-size: 4px;
+        line-height: 6.6px;
+    }
 }
