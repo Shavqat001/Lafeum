@@ -37,7 +37,7 @@
 .search_field {
     width: 650px;
     height: 24px;
-    font-family: 'Manrope';
+    font-family: 'Manrope',sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 14px;
@@ -53,16 +53,21 @@
 
 .search_queries {
     position: absolute;
+    width: 560px;
     height: 58px;
     left: 31.46%;
-    right: 39.11%;
     top: 360px;
     font-family: 'Lato', sans-serif;
     font-style: normal;
-    font-weight: 5 00;
+    font-weight: 500;
     font-size: 16px;
     line-height: 29px;
     color: #8C8888;
+}
+
+.words {
+    font-size: 24px;
+    color: #000;
 }
 
 .all_letters {
@@ -78,7 +83,7 @@
     text-transform: uppercase;
     font-feature-settings: 'liga' off;
     color: #AFAFAF;
-    font-family: 'Lato',sans-serif;
+    font-family: 'Lato', sans-serif;
 }
 
 .first_slot,
@@ -111,7 +116,7 @@
     width: 32px;
     height: 32px;
     right: 944.9px;
-    top: calc(50% - 32px/2 + 216.5px);
+    top: 1249px;
     background: #AEAEAE;
     opacity: 0.1;
     display: flex;
@@ -126,7 +131,7 @@
     height: 32px;
     left: 860px;
     top: 1310px;
-    font-family: 'Lato';
+    font-family: 'Lato',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
@@ -161,7 +166,7 @@
     height: 32px;
     left: 910px;
     bottom: 753px;
-    font-family: 'Lato';
+    font-family: 'Lato',sans-serif;
     font-style: normal;
     font-weight: 600;
     font-size: 14px;
