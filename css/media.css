@@ -729,4 +729,35 @@
         font-size: 4px;
         line-height: 6.6px;
     }
+
+    /* ***** 404 **** */
+
+    .not_found_container {
+        width: 438px;
+        height: 186px;
+        top: 53px;
+        left: 94px;
+    }
+
+    .button {
+        width: 91px;
+        height: 14px;
+        left: 274px;
+        top: 259px;
+        font-size: 6.6px;
+    }
+    
+    .registration,
+    .sign_in {
+        width: 57px;
+        height: 14px;
+        left: 508px;
+        top: 6.6px;
+        font-size: 6.6px;
+    }
+    
+    .sign_in {
+        width: 38px;
+        left: 568px;
+    }
 }

@@ -18,19 +18,13 @@ main {
     top: 777.92px;
     background: #434343;
     border-radius: 2px;
-}
-
-.inside_button {
-    position: absolute;
-    height: 20px;
-    top: 10px;
-    left: 34px;
     font-family: 'Lato', sans-serif;
-    font-style: normal;
+    color: #FFFFFF;
     font-weight: 700;
     font-size: 20px;
-    line-height: 20px;
-    color: #FFFFFF;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .registration,
