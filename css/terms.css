@@ -49,9 +49,19 @@
 }
 
 .atom_icon {
+    width: 10px;
+    height: 12px;
     position: absolute;
     top: 251px;
     left: 88.61px;
+}
+
+.atom_icon:nth-of-type(2) {
+    left: 105px;
+}
+
+.atom_icon:nth-of-type(3) {
+    left: 122px;
 }
 
 .underline {
@@ -129,6 +139,8 @@
 }
 
 .comment_icon {
+    width: 18px;
+    height: 23px;
     position: absolute;
     left: 250px;
     top: 849px;
@@ -147,6 +159,8 @@
 }
 
 .share {
+    width: 19px;
+    height: 21px;
     position: absolute;
     top: 849px;
     left: 760px;
@@ -162,4 +176,8 @@
     font-size: 12px;
     line-height: 20px;
     color: #D8D8D8;
+}
+.sign {
+    width: 13px;
+    height: 13px;
 }
